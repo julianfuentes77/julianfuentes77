@@ -1,0 +1,319 @@
+/* styles.css */
+
+body {
+
+    font-family: Arial, sans-serif;
+
+    margin: 0;
+
+    padding: 0;
+
+}
+
+
+
+.container {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 1rem;
+
+    background-color: #ffffff;
+
+}
+
+.box {
+
+    padding: 1rem;
+
+    background-color: #ffffff;
+
+    color: rgb(0, 0, 0);
+
+    text-align: center;
+
+    margin: 0.5rem;
+
+    border-radius: 5px;
+
+}
+
+
+
+.small {
+
+    width: 100px;
+
+}
+
+
+
+.left {
+
+    order: 1;
+
+    margin-right: auto;
+
+}
+
+
+
+.center {
+
+    order: 2;
+
+    margin: 0 auto;
+
+}
+
+
+
+.right {
+
+    order: 3;
+
+    margin-left: auto;
+
+}
+
+.container2 {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 1rem;
+
+    background-color: #ffffff;
+
+}
+
+
+
+.container3 {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 1rem;
+
+    background-color: #ffffff;
+
+}
+
+.box3 {
+
+    border-radius: 5px;
+
+    border-style: solid;
+
+    border-color: rgba(0, 0, 0, 0);
+
+    border-width:2px;
+
+    width: 25px;
+
+    height: 25px;
+
+    padding: 1rem;
+
+    background-color: #f7f5f500;
+
+    color: white;
+
+    text-align: center;
+
+    margin: 1rem;
+
+    color: #FF5A5F;
+
+}
+
+.container4 {
+
+    display: flex;
+
+    justify-content: space-between;
+
+    align-items: center;
+
+    padding: 1rem;
+
+    background-color: #e90000;
+
+    text-align: center;
+
+    height: 150px;
+
+}
+
+.box4 {
+
+    display: flex;
+
+    flex-direction: column; /* Organiza los elementos en una columna */
+
+    justify-content: flex-end; /* Alinea el contenido en la parte inferior */
+
+    gap: 10px; /* Espacio entre los cuadros */
+
+    margin-top: 20px; /* Margen superior para no estar pegado al borde de la ventana */
+
+    border-radius: 5px;
+
+    border-style: solid;
+
+    border-color: rgb(3, 3, 3);
+
+    border-width:2px;
+
+    width: 150px;
+
+    height: 150px;
+
+    padding: 1rem;
+
+    background-color: #ffffff;
+
+    color: rgb(10, 10, 10);
+
+    text-align:auto;
+
+    margin: 1rem;
+
+    color: #000000;
+
+    text-align: center;
+
+}
+
+.linea-horizontal {
+
+    border: none; /* Elimina el borde predeterminado del <hr> */
+
+    border-top: 2px solid #3498db; /* Línea superior con color y grosor personalizados */
+
+    margin: 0px 0; /* Espacio arriba y abajo de la línea */
+
+    width: 20%; /* Ancho de la línea horizontal */
+
+    align-self: center; /* Centra la línea horizontal dentro de su contenedor */
+
+ }
+
+ .texto {
+
+    margin-top: 10px;   /* Espacio entre el recuadro y el texto */
+
+    font-size: 16px;    /* Tamaño de la fuente del texto */
+
+    color: #333;        /* Color del texto */
+
+}
+
+.box5 {
+
+    padding: 1rem;
+
+    background-color: #1f9743;
+
+    color: rgb(0, 0, 0);
+
+    text-align: center;
+
+    margin: 0.5rem;
+
+    border-radius: 5px;
+
+}
+
+.container5 {
+
+    display: flex;
+
+    justify-content:auto;
+
+    align-items: auto;
+
+    padding: 1rem;
+
+    background-color: #ffffff;
+
+    text-align: center;
+
+    height: 25px;
+
+}
+
+.LOGOimg{
+
+    width: 102px;
+
+    height: 32px;
+
+}
+
+.box5L {
+
+    background-color: #ffffff00;
+
+    color: rgb(0, 0, 0);
+
+    text-align: center;
+
+    margin: 0.5rem;
+
+    border-radius: 5px;
+
+}
+
+.Iconoimg{
+
+    width: 24px;
+
+    height: 24px;
+
+}
+.images{
+
+    width: 160px;
+
+    height: 160px;
+
+}
+.title {
+
+    background-color: #ffffff00;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 16px;
+    text-decoration: none solid rgb(190, 190, 190);
+    text-align: center;
+    white-space: nowrap;
+    word-spacing: 0px;
+    display: inline-block;
+}
+.barrota{
+
+    background-color: rgb(255,255,255);
+    width: 700px;
+    height: 60px;
+    border-radius: 40px;
+    display: flex;
+    flex-direction: row;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #f7f5f5;
+    align-items: center;
+    gap: 25px;
+}
